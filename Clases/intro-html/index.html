@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--este es un comentario-->
+<!--La etiqueta meta charset define caracteres especiales como ñ tilde etc que se utilizaran en el documento html. UTF-8 es un formato de coficacion de unicode-->
+    <meta charset="UTF-8">
+    <!--le dice a ie que utilice su motor de renderizado lo mas reciente posible-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!--adapta el documento a dispositivos moviles--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta:dato de configuracion o de i formacion-->
+    <!--da nombre a la pagina-->
+    <title>Primera clase de HTML</title>
+</head>
+
+<body>
+    <!--una etiqueta es un elemento de HTML que define la estructura y contenido de un documento-->
+    <p>Esta es la clase del 11 de mayo</p>
+    <!--un atributo proporciona informacion adicional sobre un elemento-->
+    <!--ruta = path   puede ser absoluta desde internet htpps:.. o relativa ubicada dentro de mi proyecto -->
+    <img src="./descarga.jpg" alt="Aqui va una imagen de un PC" 
+    width="100">
+
+    <!--HTML semantico es el uso de elementos HTML para reforzar el significado de la informacion de la pagina web y aplicaciones web-->
+
+    <!-- header es un encabezado o titulo-->
+    <header>
+        <h1>Bienvenidos</h1>
+    </header>
+    
+    <!--un div es una etiqueta de bloque utilizada para agrupar elementos y seccciones de pagina web-->
+    <did>
+        <p> aqui se pueden agrupar elementos</p>
+        <div id= "interno">
+            <button>click aqui</button>
+        </div>
+    </did>
+
+    <!-- Ej de etiquetas semanticas: header, nav, main, aside, footer-->
+    <!--nav = sentido a la navegacion, rutas hacia otros puntos de la pagina web-->
+    <nav>
+        <img scr="" alt="">
+        <a href="#">enlace de navegacion</a>
+    </nav>
+<!-- main = contenido ppal excluyendo header y footer -->
+    <main>
+        <section>
+          <!--define una seccion especial-->  
+          <h2>computadores de mesa</h2>
+          <article>
+            <!--define un articulo dentro de la seccion-->
+            <h3>ofertas</h3>
+            <p>lenovo corei5</p>
+          </article>
+        </section>
+    </main>
+
+    <aside>
+        <!--define un area lateral o secundaria de la pag web-->
+        <p>promociones pocos dias</p>
+    </aside>
+
+    <footer>
+        <!--este es un pie de pagina-->
+        <img src="" alt="">
+         <p> este es el fin</p>
+    </footer>
+<!--listas ordenadas se identifica por numeracion-->
+<ol>
+    <li>elemento linea ordenada 1</li>
+    <li>elemento linea ordenada 2</li>
+    <!--atajo alt+shift+flecha abajo repite-->
+    <!--atajo li*numero de repeticiones {contenido $}-->
+
+</ol>
+<!--listas desordenadas se identifica por viñetas-->
+<ul>
+    <li>elemento de lista desordenada 1</li>
+    <li>elemento de lista desordenada 2</li>
+</ul>
+
+<dl>
+    <!--lista definida es para conceptos-->
+    <dt>elemento lista definida 1</dt>
+    <dt>elemento lista definida 2</dt>
+</dl>
+
+</body>
+</html>

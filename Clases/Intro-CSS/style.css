@@ -1,0 +1,83 @@
+/* reset */
+    * {
+      margin: 0; /* espacio exterior del elem */
+      padding: 0; /* espacio interior del elem */
+      box-sizing: border-box;
+    }
+    
+    body {
+      /* fuentes y fuentes externas*/
+      /* herencia */
+      font-family: 'Roboto', sans-serif;
+      /* colores y colores de fondo */
+      /* color name - rgb() - hex */
+      background-color: #9beff7;
+    }
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+  .tarjeta {
+      width: 300px;
+      padding: 20px;
+      margin: auto; /* centra el elmento horizontalmente */
+      border-radius: 10px;
+      /* tarea: investigar como utilizar */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: rgb(229, 185, 250);
+    }
+    #imagen-perfil {
+      width: 100%;
+      width: 130px;
+      height: 130px;
+      object-fit: cover; /*cover - contain*/
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+    }
+
+    .tarjeta-nombre {
+      font-size: 22px;
+      font-weight: 500;
+      color: #8e0527;
+      text-align: center;
+      text-transform: capitalize;
+    }
+   .tarjeta-descripcion {
+      font-size: 14px;
+      color: #3c0202;
+      text-transform: capitalize;
+      text-align: center; /* justify */
+    }
+    .tarjeta-descripcion::before {
+      content: '😊';
+    }
+
+    /* cuando yo le haga hover al selector, al before del elemento aplicale los siguientes estilos */
+    .tarjeta-descripcion:hover::before {
+      background-color: rgb(248, 52, 82);
+    }
+    
+    .tarjeta-descripcion::after {
+      content: '❤';
+    }
+  
+    .tarjeta-boton {
+      display: block;
+      width: 80%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #007bff;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 5px;
+    }
+  
+    .tarjeta-boton:hover {
+      background-color: #f3a109;
+    }
+  
+    .tarjeta-boton:active {
+      background-color: #850010;
+    }
+    

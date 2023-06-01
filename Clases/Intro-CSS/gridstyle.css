@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 
+    'navbar     navbar'
+    'content    sidebar'
+    'articles   articles';
+}
+nav {
+    background-color: blueviolet;
+    grid-area: navbar;
+}
+
+ul {
+display: flex;
+gap: 10%;
+
+}
+
+li {
+    border: none;
+	font-size: inherit;
+    text-decoration: none;
+}
+main {
+background-color: aqua;
+grid-area: content;
+
+}
+
+aside {
+    background-color: rgb(72, 72, 224);
+    grid-area: sidebar;
+}
+
+section {
+    background-color: rgb(238, 97, 97);
+    grid-area: articles;
+}
