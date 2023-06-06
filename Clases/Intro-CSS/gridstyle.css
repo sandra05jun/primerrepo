@@ -9,6 +9,7 @@ body {
 nav {
     background-color: blueviolet;
     grid-area: navbar;
+    
 }
 
 ul {

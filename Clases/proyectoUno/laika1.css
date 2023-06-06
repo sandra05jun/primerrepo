@@ -95,7 +95,7 @@ header {
   padding: 15px;
 }
 
-#vet {
+#veterinario {
   border-radius: 10px;
   border-bottom: transparent;
   background-color: rgb(36, 108, 186);
@@ -103,7 +103,7 @@ header {
   height: 25px;
 }
 
-#member {
+#membresia {
   border-radius: 10px;
   border-bottom: 1px;
   background-color: rgb(182, 38, 211);
@@ -124,9 +124,14 @@ header {
   border-radius: 4px;
 }
 
-.categorias {
+#titulo {
+  padding: 10px 80px;
+}
+
+.menucategorias {
   padding: 10px 80px;
   justify-content: space-between;
   font-style: none;
   color: black;
+  border: none;
 }
