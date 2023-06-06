@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(89, 36, 138);
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+#encabezado1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 80px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 80px;
+  border-bottom: transparent;
+}
+
+#logo {
+  flex-wrap: 1;
+}
+
+#barra1 {
+  flex-wrap: 4;
+  width: 800px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#direccion {
+  flex-wrap: 1;
+  background-color: rgb(89, 36, 138);
+  width: 200px;
+  color: white;
+}
+
+#cuenta {
+  flex-wrap: 1;
+  width: 200px;
+  background-color: rgb(52, 15, 86);
+  border-radius: 10px;
+  color: white;
+}
+
+#carro {
+  flex-wrap: 1;
+  width: 80px;
+  background-color: rgb(89, 36, 138);
+}
+
+.menu {
+  padding: 20px 80px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  color: blueviolet;
+  gap: 40px;
+}
+
+.menuperro {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+}
+
+.navegacion > li:hover .menuperro {
+  display: block;
+}
+
+.menuperro {
+  background-color: rgb(239, 237, 237);
+}
+
+.menuperro > li a {
+  display: block;
+  color: rgb(25, 24, 24);
+  padding: 15px;
+}
+
+#vet {
+  border-radius: 10px;
+  border-bottom: transparent;
+  background-color: rgb(36, 108, 186);
+  width: 200px;
+  height: 25px;
+}
+
+#member {
+  border-radius: 10px;
+  border-bottom: 1px;
+  background-color: rgb(182, 38, 211);
+  width: 200px;
+  height: 25px;
+}
+
+#barrabanner {
+  height: 300px;
+  overflow: hidden;
+}
+
+.puntos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 40px;
+  border-radius: 4px;
+}
+
+.categorias {
+  padding: 10px 80px;
+  justify-content: space-between;
+  font-style: none;
+  color: black;
+}
